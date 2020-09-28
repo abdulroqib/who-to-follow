@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #a0a0a0;
+  line-height: 20px;
+}
+
+.App {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #606060;
+}
+
+.users {
+  margin-top: 20px;
+}
+
+.twitter-user {
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.info {
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.name {
+  color: #000000;
+}
+
+.name:hover, .username:hover {
+  text-decoration: underline;
+}
+
+a, a:hover, a:visited {
+  color: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+.delete, .refresh {
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #1B477D;
+  border: none;
+  border-radius: 10px;
+  line-height: 18px;
+}
+
+.refresh {
+  margin-left: 10px;
+  padding: 7px 10px;
+}
+
+.delete {
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
